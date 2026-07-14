@@ -13,7 +13,7 @@ const projects = [
     desc: "MLP outperformed persistence baseline by 17% MAE across a 7-day, 168-hour horizon. Compared 4 models: Persistence, SARIMA, Random Forest, and Neural Network on real operational data.",
     image: "/proj1.png",
     demo: "#",
-    github: "#",
+    github: "https://github.com/abhas-singh15/renewable-forecast",
   },
 ];
 

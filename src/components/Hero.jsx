@@ -56,14 +56,21 @@ engineering problems.
               </a>
             </div>
 
-            <button className="relative border border-green-600 px-6 py-2 rounded-lg overflow-hidden group transition-all duration-300 hover:shadow-[0_0_12px_rgba(34,197,94,0.7)]">
-              <span className="relative z-10">Resume</span>
+            <a
+  href="/Abhas_Kumar_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative border border-green-600 px-6 py-2 rounded-lg overflow-hidden group transition-all duration-300 hover:shadow-[0_0_12px_rgba(34,197,94,0.7)] inline-flex items-center justify-center"
+>
+  <span className="relative z-10">Resume</span>
 
-              <span className="absolute inset-0 opacity-0 group-hover:opacity-100
-                bg-gradient-to-r from-transparent via-green-400/40 to-transparent
-                -translate-x-full group-hover:translate-x-full
-                transition-all duration-700"></span>
-            </button>
+  <span
+    className="absolute inset-0 opacity-0 group-hover:opacity-100
+    bg-gradient-to-r from-transparent via-green-400/40 to-transparent
+    -translate-x-full group-hover:translate-x-full
+    transition-all duration-700"
+  ></span>
+</a>
           </div>
 
           {/* icons */}

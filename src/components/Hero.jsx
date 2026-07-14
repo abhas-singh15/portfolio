@@ -29,10 +29,10 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-90" />
 
       {/* content container */}
-      <div className="relative z-10 max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="relative z-10 max-w-screen-2xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-10">
 
         {/* LEFT SIDE */}
-        <div className="max-w-xl text-left">
+        <div className="max-w-2xl text-left">
           <p className="text-xl md:text-5xl mt-10 font-bold text-gray-200 leading-tight">
             Developing High-Performance Backend Systems
           </p>
@@ -85,7 +85,7 @@ engineering problems.
         </div>
 
         {/* RIGHT SIDE (GRAPHIC) */}
-        <div className="w-full md:w-1/2 relative">
+        <div className="w-full md:w-[55%] relative">
 
           {/* glow layer */}
           <div className="absolute inset-0 bg-purple-500/10 blur-3xl rounded-full" />

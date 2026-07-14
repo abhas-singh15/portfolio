@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.container-custom{
+    @apply max-w-screen-2xl mx-auto px-6 lg:px-10 xl:px-16 2xl:px-24;
+}
+
+.section-padding{
+    @apply py-28 lg:py-36;
+}
+
+.heading{
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold;
+}
+
+.body-text{
+    @apply text-gray-400 leading-8;
+}

@@ -73,7 +73,7 @@ export default function Projects() {
               <img
                 src={projects[active].image}
                 alt={projects[active].title}
-                className="w-full h-[250px] object-cover transition-transform duration-500 hover:scale-105"
+                className="w-full h-[325px] object-cover transition-transform duration-500 hover:scale-105"
               />
             </div>
           </a>

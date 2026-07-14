@@ -103,7 +103,7 @@ engineering problems.
               transform: `translate3d(${pos.x}px, ${pos.y}px, 0) scale(1.1)`
               }}
               className="
-                absolute bottom-0 right-0 h-[120%] max-w-none object-contain opacity-80 mix-blend-lighten scale-105
+                absolute bottom-0 right-0 h-[150%] max-w-none object-contain opacity-80 mix-blend-lighten scale-105
               "
             />
           </div>
